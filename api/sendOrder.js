@@ -10,7 +10,7 @@ const handler = async (req, res) => {
         const botToken = process.env.BOT_TOKEN;
 
         // Your chat ID (replace this with your actual chat ID)
-        const chatId = '-1001353709350';
+        const chatId = '6741821286';
 
         // Construct the message to send to Telegram
         const message = `New order received:\nLatitude: ${latitude}\nLongitude: ${longitude}\nAccuracy: ${accuracy} meters`;
