@@ -5,7 +5,7 @@ const handler = (req, res) => {
         const botToken = process.env.BOT_TOKEN;
 
         // Your chat ID (replace this with your actual chat ID)
-        const chatId = '-1001353709350';
+        const chatId = '6741821286';
 
         // Provide configuration to the client side
         return res.status(200).json({ botToken, chatId });
